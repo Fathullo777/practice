@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: purple;
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    transition: 500ms;
+}
+
+h1:hover {
+    transform: scale(3) rotate(360deg) translate(50px);
+}
