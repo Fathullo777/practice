@@ -20,3 +20,18 @@ h1 {
 h1:hover {
     transform: scale(3) rotate(360deg) translate(50px);
 }
+
+main {
+    height: 100vh;
+    background: gray;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1000px) {
+    header {
+        background: #000;
+    }
+}
